@@ -1,0 +1,42 @@
+@media screen and (max-width: 985px) {
+    .box {
+        flex-wrap: wrap;
+    }
+    .image {
+        margin-bottom: 30px;
+    }
+    .box__1 {
+        padding: 35px 20px 60px 20px;
+    }
+    .box__2 {
+        padding: 35px 20px 50px 20px;
+        max-width: none;
+    }
+}
+
+@media screen and (max-width: 747px) {
+    .header__nav-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 644px) {
+    .footer__nav {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .footer__logo {
+        width: 220px;
+    }
+
+    .call {
+        font-size: 14px;
+    }
+
+    .num {
+        font-size: 19px;
+    }
+}
